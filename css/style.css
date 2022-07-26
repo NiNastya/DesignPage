@@ -1,0 +1,173 @@
+:root {
+    --cw: #fff;
+    --cwh: rgba(255,255,255,0.3);
+    --cb: #222;
+    --c1: rgba(171,152,118,1);
+    --c1h: rgba(171,152,118,0.7);
+    --c0: rgba(171,152,118,0);
+}
+
+.cw {
+    color: var(--cw)
+}
+
+.c1 {
+    color: var(--c1);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.bgw {
+    background-color: #fff;
+}
+
+h1 {
+    font-size: 56px;
+}
+
+h2 {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 20px;
+}
+ 
+.btn-1 {
+    color: var(--cw);
+    border: solid 1px var(--c1);
+    padding: 10px 20px;
+    background-color: var(--c1);
+    border-radius: 3px;
+}
+
+.btn-1:hover {
+    color: var(--cw);
+    border: solid 1px var(--c1);
+    padding: 10px 20px;
+    background-color: var(--c1h);
+    border-radius: 3px;
+}
+
+.btn-2 {
+    color: var(--cw);
+    border: solid 1px var(--cw);
+    padding: 10px 20px;
+    background-color: var(--c0);
+    border-radius: 3px;
+}
+
+.btn-2:hover {
+    color: var(--cw);
+    border: solid 1px var(--cw);
+    padding: 10px 20px;
+    background-color: var(--cwh);
+    border-radius: 3px;
+}
+
+.logo {
+    background: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.8) 20%, rgba(255,255,255,0.8) 80%, rgba(255,255,255,0) 100%);;
+}
+
+header {
+    background-image: url(/img/55026866_2.webp);
+    background-attachment: fixed;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: transparent;
+}
+
+.bg {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.bgb {
+    background-color: #000;
+}
+
+header h3 {
+    color: var(--c1);
+    font-weight: 700;
+}
+
+.design {
+    background-image: url(/img/54769514_2.webp);
+    background-position: 0%;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.design h3 {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.num h3 {
+    font-size: 50px;
+    font-weight: 700;
+    color: var(--c1);
+}
+
+.num p {
+    font-size: 20px;
+    color: var(--cw);
+}
+
+.num {
+    background-image: url(/img/55026213_2.webp);
+    background-attachment: fixed;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: transparent;
+}
+
+.price .card {
+    background-color: #f6f4f1;
+}
+
+.price .card-header {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.price .card-text {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+
+
+.map h3 {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.map p {
+    font-size: 20px;
+}
+.otziv img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.otziv {
+    background-color: #f6f4f1;
+}
+	
+
+@media (min-width: 990px) {
+    .mapyan {
+        margin-top: -400px;
+    }
+    
+    .map .contact {
+        position: relative;
+        z-index: 100;
+    }
+    .map {
+        height: 400px;
+    }
+}
